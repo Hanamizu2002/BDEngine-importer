@@ -1,0 +1,15 @@
+name: BDEImporter
+version: 1.0.2
+main: gg.bde.importer.BdeImporter
+api-version: '26.3'
+description: Bounded, incremental BDEngine display model importer for Axiom.
+softdepend: [Axiom]
+commands:
+  bde:
+    description: 导入 BDEngine 静态模型或查看帮助
+    usage: /bde help | /bde spawn <six-digit-id> | /bde cancel
+    permission: bde.spawn
+permissions:
+  bde.spawn:
+    description: 查看帮助、导入 BDEngine 模型并取消自己的导入
+    default: op

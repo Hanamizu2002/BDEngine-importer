@@ -1,0 +1,17 @@
+# 修改后重启服务器生效；整数项除 cooldown-millis 外必须大于 0。
+limits:
+  response-bytes: 1048576
+  parts: 128
+  part-bytes: 8192
+  model-bytes: 131072
+  nesting: 32
+  connect-timeout-millis: 5000
+  read-timeout-millis: 3000
+  request-timeout-millis: 20000
+  job-timeout-millis: 120000
+  cooldown-millis: 5000
+  step-ticks: 2
+  chunk-displays: 256
+  busy-tick-millis: 40.0
+  matrix-max-absolute: 64.0
+  view-range: 0.5
